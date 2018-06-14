@@ -1,4 +1,4 @@
-# OPUL
+# PULpy
 Open prediction of Polysaccharide Utilisation Loci (PUL)
 
 # Create conda env
