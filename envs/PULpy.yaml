@@ -1,0 +1,10 @@
+name: PULpy
+channels:
+   - anaconda
+   - bioconda
+   - r
+dependencies:
+   - prodigal
+   - pfam_scan
+   - r
+

@@ -1,0 +1,5 @@
+{
+    "pfam_dir": "pfam_data",
+    "dbcan_hmm": "dbcan_data/dbCAN-fam-HMMs.txt",
+    "dbcan_dir": "dbcan_data"
+}
