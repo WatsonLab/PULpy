@@ -30,7 +30,17 @@ chmod 755 hmmscan-parser.sh
 cd ..
 ```
 
-Edit config.json if you need to....
+# Edit config.json if you need to....
+
+# Input file
+
+PULpy is designed to process genomes downloaded from NCBI, therefore expects them in a format:
+
+```
+"genomes/{id}_genomic.fna.gz")
+```
+
+That is, in a directory called "genomes", with a unique_id followed by "_genomic.fna.gz"
 
 # Run it
 ```sh
