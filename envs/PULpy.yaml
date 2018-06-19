@@ -3,6 +3,8 @@ channels:
    - anaconda
    - bioconda
    - r
+   - defaults
+   - conda-forge
 dependencies:
    - prodigal
    - pfam_scan
