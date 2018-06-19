@@ -8,5 +8,5 @@ channels:
 dependencies:
    - prodigal
    - pfam_scan
-   - r
+   - r-base
 
