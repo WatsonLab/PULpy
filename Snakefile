@@ -138,6 +138,6 @@ rule puls:
 	shell: 
 		'''
 		mkdir -p puls
-		./scripts/predict_puls.R {input.ft} {input.pfam} {input.dbcan} {output.all} {output.sum}
+		./scripts/predict_puls.R {input.ft} {input.pfam} {input.dbcan} {output.all} {output.sum} {params.id}
 		'''
 
