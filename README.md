@@ -32,6 +32,12 @@ cd ..
 
 # Edit config.json if you need to....
 
+# Make scripts executable
+
+```sh
+chmod -R 755 scripts
+```
+
 # Input file
 
 PULpy is designed to process genomes downloaded from NCBI, therefore expects them in a format:
