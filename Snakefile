@@ -60,7 +60,7 @@ rule gff2table:
 
 
 rule ncbi2table:
-	input: "ncbi_feature_table/{id}_feature_table.txt", "proteins/{id}_protein.faa", "proteins/{id}_genomic.gff"
+	input: "ncbi_feature_table/{id}_feature_table.txt", "proteins/{id}_protein.faa"
 	output: 'feature_table/{id}_ft.txt'
         run:
 
