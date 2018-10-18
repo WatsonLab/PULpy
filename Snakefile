@@ -121,7 +121,7 @@ rule dbcan_filter:
 		ps='dbcan/{id}.out.dm.ps',
 		filt='dbcan/{id}.out.dm.ps.filtered'
 	params:
-		script=config["dbcan_dir"]+"/"+"hmmscan-parser.sh"
+		script="./scripts/hmmscan-parser.sh"
 	shell: "{params.script} {input} > {output.ps} && cat {output.ps} | awk '$10 >= 0.35' | awk '$5 <= 1e-18' > {output.filt}"
 
 rule puls:
