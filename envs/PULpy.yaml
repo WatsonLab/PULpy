@@ -1,10 +1,9 @@
 name: PULpy
 channels:
-   - anaconda
-   - bioconda
-   - r
-   - defaults
    - conda-forge
+   - bioconda
+   - defaults
+   - r
 dependencies:
    - prodigal
    - pfam_scan
