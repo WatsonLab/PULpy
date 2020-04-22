@@ -23,8 +23,8 @@ cd ..
 # Get DBCAN data
 ```sh
 mkdir dbcan_data && cd dbcan_data
-wget http://csbl.bmb.uga.edu/dbCAN/download/hmmscan-parser.sh
-wget http://csbl.bmb.uga.edu/dbCAN/download/dbCAN-fam-HMMs.txt
+wget http://bcb.unl.edu/dbCAN2/download/Databases/dbCAN-old@UGA/hmmscan-parser.sh
+wget http://bcb.unl.edu/dbCAN2/download/Databases/dbCAN-old@UGA/dbCAN-fam-HMMs.txt
 hmmpress dbCAN-fam-HMMs.txt
 chmod 755 hmmscan-parser.sh
 cd ..
